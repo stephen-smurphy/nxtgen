@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   mobile_scanner: ^7.0.1
+  flutter_nfc_kit: ^3.6.0
 
 dev_dependencies:
   flutter_test:

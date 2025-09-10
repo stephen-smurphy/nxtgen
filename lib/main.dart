@@ -12,12 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'QR Demo',
+      title: 'NextGen Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
       initialRoute: '/',
       routes: {
         '/': (context) => const HomeScreen(),
         '/qr': (context) => const QrScannerScreen(),
+        // No need for a dedicated NFC route yet, since we handle scanning directly on HomeScreen
       },
     );
   }
